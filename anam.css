@@ -14,8 +14,9 @@ body{
   font-variation-settings:
     "wdth" 100;
 }
-.logo h1{
-    font-size: 45px;
+.logo img{
+    width: 100px;
+    height: 100px;
 
 }
 .color{

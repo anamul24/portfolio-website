@@ -25,7 +25,7 @@ body{
 }
 header{
     background-color: rgb(255, 231, 166);
-    background-image: url(Developer.png), url(mybg.jpg);
+    background-image: url(\images\Developer.png), url(\images\mybg.jpg);
     background-repeat: no-repeat;
     background-position: 23px 38px, bottom right;
     padding-top: 50px;

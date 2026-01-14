@@ -213,7 +213,7 @@ footer{
     padding: 80px 0;
 }
 footer .footer-container{
-    width: 95%;
+    width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 10px;
@@ -298,6 +298,9 @@ footer .footer-container{
     #about .about-container .about-info {
     gap: 30px;
     }
+    .section-heading h2{
+    font-size: 25px;
+    }
     #skills .skills-container .skill-box,
     #about .about-container .about-info ,
     footer .footer-container,
@@ -316,6 +319,9 @@ footer .footer-container{
     }
     .resume-card {
     margin-right: 10px;
+    }
+    .footer-container{
+        align-items: center;
     }
     .footer-container form input[type="text"], 
     .footer-container form textarea{

@@ -30,9 +30,14 @@ header{
     background-position: 23px 38px, bottom right;
     padding-top: 50px;
 }
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
 nav{
     width: 71%;
-    max-width: 1436px;
+    max-width: 1140px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -87,6 +92,11 @@ nav .menu a{
    color: white;
    cursor: pointer; 
    text-decoration: none;
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .section-heading{
@@ -198,15 +208,15 @@ nav .menu a{
     color: #5f5f5f;
 }
 footer{
-    margin-top: 130px;
+    margin-top: 30px;
     background-color: #fff8f3;
-;
-    padding: 130px 0;
+    padding: 80px 0;
 }
 footer .footer-container{
     width: 95%;
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
+    padding-top: 10px;
     display: flex;
     gap: 100px;
 }
@@ -241,4 +251,76 @@ footer .footer-container{
     border-radius: 5px;
     color: #000000;
     background-color: #ebe0ba;
+}
+
+@media screen and (max-width:576px){
+    #skills .skills-container{
+        width: 95%;
+    }
+    .section-heading h2 {
+    font-size: 30px;
+    }
+    .btn-group{
+    justify-content: center;
+    }
+    header{
+    background-image: url(images/mybg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-top: 50px;
+    }
+    nav .menu{
+        justify-content: center;
+    }
+    .container{
+    align-items: center;
+    }
+    #banner{
+        margin: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+    #banner .banner-content h1{
+    font-size: 45px;
+    }
+    #banner .banner-content h2{
+    font-size: 25px;
+    }
+    #banner .banner-image img{
+        width: 100%;
+    }
+    #about .about-container {
+    padding: 20px;
+    }
+    #about , #skills , #resume{
+    padding-top: 60px;
+    } 
+    #about .about-container .about-info {
+    gap: 30px;
+    }
+    #skills .skills-container .skill-box,
+    #about .about-container .about-info ,
+    footer .footer-container,
+    #resume .resume-container,
+    nav,
+    #banner{
+    flex-direction: column;
+    }  
+    
+    .skill-box .skill-card {
+    max-width: 100%;
+    box-shadow: 0 6px 50px 0 #75757553;
+    }
+    #resume .resume-container {
+    margin-top: 60px;
+    }
+    .resume-card {
+    margin-right: 10px;
+    }
+    .footer-container form input[type="text"], 
+    .footer-container form textarea{
+    width: 100%;
+    }
+
+    
 }

@@ -6,7 +6,7 @@ html {
     padding: 0;
 }
 body{
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
 }
 .open-sans {
   font-family: "Open Sans", sans-serif;
@@ -23,12 +23,15 @@ body{
 .color{
     color: orange;
 }
+
 header{
-    background-color: rgb(255, 231, 166);
+    background-color: rgb(0, 0, 0);
     background-image: url(images/Developer.png), url(images/mybg.jpg);
     background-repeat: no-repeat;
-    background-position: 23px 38px, bottom right;
+    background-position: 23px 38px, center right ;
     padding-top: 50px;
+    min-height: 80vh; */
+    overflow: hidden;
 }
 .container{
     width: 71%;
@@ -51,7 +54,7 @@ nav .menu{
 }
 nav .menu a{
     font-size: 25px;
-    color: #474747;
+    color: #ffffff;
     text-decoration: none;
 }
 #banner{
@@ -60,24 +63,25 @@ nav .menu a{
     justify-content: space-between;
     align-items: center;    
 }
+
 #banner .banner-content{
     max-width: 585px;
 }
 #banner .banner-content h2{
     font-size: 45px;
     font-weight: 600px;
-    color: #474747;
+    color: #ffffff;
     margin: 5px;
 }
 #banner .banner-content h1{
     font-size: 85px;
     font-weight: bold;
-    color: #474747;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 #banner .banner-content p{
     font-size: 18px;
-    color: #757575;
+    color: #ffffff;
     line-height: 30px;
     margin-bottom: 30px;
 
@@ -121,6 +125,7 @@ nav .menu a{
 }    
 #banner .banner-image img{
     max-width: 585px;
+    display: block;
 }
 #about , #skills , #resume{
     padding-top: 130px;
